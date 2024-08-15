@@ -34,6 +34,9 @@
 
             </form>
         </div>
+        <div class="SignUp-ui">
+
+        </div>
     </main>
     <footer>
 
@@ -43,4 +46,5 @@
 
 
 </body>
+<script src="script.js"></script>
 </html>

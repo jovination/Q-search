@@ -106,3 +106,10 @@ input[placeholder]{
     justify-content: center;
     cursor: pointer;
 }
+.SignUp-ui{
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    background: #fff;
+    padding: 20px;
+}
