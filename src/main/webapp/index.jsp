@@ -13,7 +13,7 @@
 
     <header>
         <div class="navbar">
-            <div class="logo">Q-Search</div>
+            <a href="index.jsp" class="logo"  >Q-Search</a>
             <div class="primary-nav">
                 <div class="sign-up">Sign Up</div>
                 <div class="login">Login</div>
@@ -35,7 +35,28 @@
             </form>
         </div>
         <div class="SignUp-ui">
+           <div class="left-col"></div>
+            <div class="right-col">
+                <div class="upper-info">
+                    <span class="get-started">Get Started</span>
+                    <span class="create-acc">Create your account Now</span>
+                </div>
+                <form action="#" class="register-form">
+                    <div class="user-details">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="user-email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="user-password">
+                        <label for="pass">Password</label>
+                        <input type="password" id="pass" placeholder="Enter your password" required>
+                    </div>
 
+                </form>
+            </div>
         </div>
     </main>
     <footer>
