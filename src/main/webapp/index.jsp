@@ -35,6 +35,9 @@
             </form>
         </div>
         <div class="SignUp-ui">
+            <div class="cancel-btn">
+                <img src="images/x.svg" width="20" height="20" >
+            </div>
            <div class="left-col">
                <div class="upper-row">
                    <span class="explore">
