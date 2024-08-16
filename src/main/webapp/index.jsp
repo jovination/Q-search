@@ -35,7 +35,17 @@
             </form>
         </div>
         <div class="SignUp-ui">
-           <div class="left-col"></div>
+           <div class="left-col">
+               <div class="upper-row">
+                   <span class="explore">
+                       Explore
+                       the Ultimate <br>
+                       Search Engine.
+
+                   </span>
+               </div>
+               <div class="lower-row"></div>
+           </div>
             <div class="right-col">
                 <div class="upper-info">
                     <span class="get-started">Get Started</span>
@@ -44,18 +54,21 @@
                 <form action="#" class="register-form">
                     <div class="user-details">
                         <label for="name">Full name</label>
-                        <input type="text" id="name" placeholder="Enter your name" required>
+                        <input class="name-input input_box" type="text" id="name" placeholder="your name" required>
                     </div>
                     <div class="user-email">
                         <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="example@gmail.com" required>
+                        <input class="email-input input_box" type="email" id="email" placeholder="example@gmail.com" required>
                     </div>
                     <div class="user-password">
                         <label for="pass">Password</label>
-                        <input type="password" id="pass" placeholder="Enter your password" required>
+                        <input class="password-input input_box" type="password" id="pass" placeholder="password" required>
                     </div>
 
+                    <div class="sign-up-btn">Sign Up</div>
+
                 </form>
+                <div class="login-text" >Have an account? <span>Login</span></div>
             </div>
         </div>
     </main>
