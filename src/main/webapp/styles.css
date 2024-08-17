@@ -137,6 +137,9 @@ main {
         top: -7px;
         cursor: pointer;
     }
+    .SignUp-ui:hover .cancel-btn{
+        display: block;
+    }
     .left-col{
         width: 334px;
         height: 460px;
