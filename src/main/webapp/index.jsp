@@ -78,7 +78,56 @@
                 </form>
                 <div class="login-text" >Have an account? <span>Login</span></div>
             </div>
+
+
+
         </div>
+        <div class="Login-ui">
+            <div class="cancel-btn">
+                <img src="images/x.svg" width="20" height="20" >
+            </div>
+            <div class="left-col">
+                <div class="upper-row">
+                   <span class="explore">
+                       The
+                       Ultimate <br>
+                       Search Engine.
+
+                   </span>
+                </div>
+                <div class="lower-row"></div>
+            </div>
+            <div class="right-col">
+                <div class="upper-info">
+                    <span class="get-started">Welcome Back!!</span>
+                    <span class="create-acc">Login to your account Now</span>
+                </div>
+                <form action="#"
+                      class="login-form"
+                      method="get">
+
+                    <div class="user-email">
+                        <label for="email">Email</label>
+                        <input class="email-input input_box" type="email" name="email" id="email-id"
+                               placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="user-password">
+                        <label for="pass">Password</label>
+                        <input class="password-input input_box" type="password" name="password" id="pass-id"
+                               placeholder="password" required>
+                    </div>
+
+                    <button type="submit" class=" login-btn">Login</button>
+
+                </form>
+                <div class="login-text" >Have an account? <span>Login</span></div>
+            </div>
+
+
+
+        </div>
+
+
     </main>
     <footer>
 

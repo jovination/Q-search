@@ -1,12 +1,25 @@
-let SignUP_btn =  document.querySelector('.sign-up');
-let Search_ui = document.querySelector('.search-ui');
-let SignUp_ui = document.querySelector('.SignUp-ui');
-let Cancel_btn = document.querySelector('.cancel-btn');
+// Select elements
+const signUpButton = document.querySelector('.sign-up');
+const searchUI = document.querySelector('.search-ui');
+const signUpUI = document.querySelector('.SignUp-ui');
+const cancelButton = document.querySelector('.cancel-btn');
+const loginUI = document.querySelector('.Login-ui');
+const loginButton = document.querySelector('.login');
 
-SignUp_ui.style.display = "none"
-Cancel_btn.style.display = "none"
-SignUP_btn.onclick = () => {
-    Search_ui.style.display = "none";
-    SignUp_ui.style.display = "flex"
+cancelButton.style.display = "none";
 
+signUpButton.onclick = () => {
+    if (signUpUI.style.display !== "flex") {
+        searchUI.style.display = "none";
+        loginUI.style.display = "none";
+        signUpUI.style.display = "flex";
+    }
+}
+
+loginButton.onclick = () => {
+    if (loginUI.style.display !== "flex") {
+        searchUI.style.display = "none";
+        signUpUI.style.display = "none";
+        loginUI.style.display = "flex";
+    }
 }
