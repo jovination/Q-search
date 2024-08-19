@@ -112,6 +112,45 @@ main {
     justify-content: center;
     cursor: pointer;
 }
+.successful-ui{
+    width: 700px;
+    height: 498px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: #fff;
+    padding: 20px;
+    margin-top: 150px;
+}
+.circle-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #29A72A;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #C1E5BB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #E4EAE3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .SignUp-ui {
     width: 700px;
     height: 498px;

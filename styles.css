@@ -112,6 +112,7 @@ main {
     justify-content: center;
     cursor: pointer;
 }
+.successful-ui,
 .SignUp-ui {
     width: 700px;
     height: 498px;
