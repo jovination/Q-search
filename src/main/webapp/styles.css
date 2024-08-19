@@ -145,7 +145,6 @@ main {
     border-radius: 20px;
     background: #fff;
     padding: 20px;
-    margin-top: 120px;
 }
 
 .s-txt{
@@ -303,6 +302,7 @@ label{
     flex-direction: column;
     gap: 20px;
 }
+.login-btn,
 .sign-up-btn{
     width: 282px;
     padding: 12px;
@@ -316,6 +316,7 @@ label{
     border: none;
     cursor: pointer;
 }
+
 .login-text{
     font-size: 13px;
     text-align: center;
