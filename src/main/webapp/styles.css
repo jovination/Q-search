@@ -112,87 +112,87 @@ main {
     justify-content: center;
     cursor: pointer;
 }
-    .SignUp-ui {
-        width: 700px;
-        height: 498px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        border-radius: 20px;
-        background: #fff;
-        padding: 20px;
-        position: relative;
-    }
-    .cancel-btn{
-        width: 20px;
-        height: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        background: #232332;
-        border: 1px solid #8A8E9A;
-        position: absolute;
-        right: -7px;
-        top: -7px;
-        cursor: pointer;
-    }
-    .SignUp-ui:hover .cancel-btn{
-        display: block;
-    }
-    .left-col{
-        width: 334px;
-        height: 460px;
-        background:#EDEDED;
-        border-radius: 15px;
-    }
-    .right-col{
-        width: 315px;
-        height: 460px;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        color: black;
-        padding: 20px;
-    }
+.SignUp-ui {
+    width: 700px;
+    height: 498px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: #fff;
+    padding: 20px;
+    position: relative;
+}
+.cancel-btn{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #232332;
+    border: 1px solid #8A8E9A;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    cursor: pointer;
+}
+.SignUp-ui:hover .cancel-btn{
+    display: block;
+}
+.left-col{
+    width: 334px;
+    height: 460px;
+    background:#EDEDED;
+    border-radius: 15px;
+}
+.right-col{
+    width: 315px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: black;
+    padding: 20px;
+}
 
-    .user-details,
-    .user-email,
-    .user-password{
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
-    .get-started{
-        font-family: "Inter", serif;
-        font-size: 18px;
-        font-weight: 500;
-    }
-    .create-acc{
-        font-family: "Inter", serif;
-        font-size: 14px;
-        color: #8A8E9A;
-    }
-    .upper-info{
-        gap: 15px;
-        display: flex;
-        flex-direction: column;
+.user-details,
+.user-email,
+.user-password{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.get-started{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.create-acc{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    color: #8A8E9A;
+}
+.upper-info{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
 
-    }
-    label{
-        font-size: 13px;
-        color: #8A8E9A;
-    }
-    .name-input,
-    .password-input,
-    .email-input{
-        width:282px;
-        padding: 12px;
-        border: 1px solid #e8e9ee;
-        border-radius: 6px;
-        outline: none;
-        font-size: 15px;
-    }
+}
+label{
+    font-size: 13px;
+    color: #8A8E9A;
+}
+.name-input,
+.password-input,
+.email-input{
+    width:282px;
+    padding: 12px;
+    border: 1px solid #e8e9ee;
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+}
 
 .name-input:focus,
 .password-input:focus,
@@ -200,47 +200,48 @@ main {
     border: 2px solid #5f5cff;
 }
 
-    .register-form{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    .sign-up-btn{
-        width: 282px;
-        padding: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 14px;
-        color: #fff;
-        border-radius: 8px;
-        background: #3C37FF;
-        cursor: pointer;
-    }
-    .login-text{
-        font-size: 13px;
-        text-align: center;
-    }
-    .login-text span{
-        color: #3C37FF;
-        cursor: pointer;
-        font-weight: 500;
-    }
-    .upper-row{
-        width: 100%;
-        padding: 20px;
-        height: 200px;
-        color: #000000;
-    }
-    .lower-row{
-        width: 100%;
-        border-radius: 0 0 15px 15px;
-        height: 260px;
-        background-image: url("./images/inflatable-shapes.png");
-        background-position: center;
-        background-size: cover;
-    }
-    .explore{
-        font-size: 30px;
-        font-weight: 600;
-    }
+.register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sign-up-btn{
+    width: 282px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 8px;
+    background: #3C37FF;
+    border: none;
+    cursor: pointer;
+}
+.login-text{
+    font-size: 13px;
+    text-align: center;
+}
+.login-text span{
+    color: #3C37FF;
+    cursor: pointer;
+    font-weight: 500;
+}
+.upper-row{
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    color: #000000;
+}
+.lower-row{
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    height: 260px;
+    background-image: url("./images/inflatable-shapes.png");
+    background-position: center;
+    background-size: cover;
+}
+.explore{
+    font-size: 30px;
+    font-weight: 600;
+}

@@ -38,37 +38,42 @@
             <div class="cancel-btn">
                 <img src="images/x.svg" width="20" height="20" >
             </div>
-           <div class="left-col">
-               <div class="upper-row">
+            <div class="left-col">
+                <div class="upper-row">
                    <span class="explore">
                        Explore
                        the Ultimate <br>
                        Search Engine.
 
                    </span>
-               </div>
-               <div class="lower-row"></div>
-           </div>
+                </div>
+                <div class="lower-row"></div>
+            </div>
             <div class="right-col">
                 <div class="upper-info">
                     <span class="get-started">Get Started</span>
                     <span class="create-acc">Create your account Now</span>
                 </div>
-                <form action="#" class="register-form">
+                <form action="register"
+                      class="register-form"
+                      method="post">
                     <div class="user-details">
                         <label for="name">Full name</label>
-                        <input class="name-input input_box" type="text" id="name" placeholder="your name" required>
+                        <input class="name-input input_box" type="text" name="full_name" id="name"
+                               placeholder="your name" required>
                     </div>
                     <div class="user-email">
                         <label for="email">Email</label>
-                        <input class="email-input input_box" type="email" id="email" placeholder="example@gmail.com" required>
+                        <input class="email-input input_box" type="email" name="email" id="email"
+                               placeholder="example@gmail.com" required>
                     </div>
                     <div class="user-password">
                         <label for="pass">Password</label>
-                        <input class="password-input input_box" type="password" id="pass" placeholder="password" required>
+                        <input class="password-input input_box" type="password" name="password" id="pass"
+                               placeholder="password" required>
                     </div>
 
-                    <div class="sign-up-btn">Sign Up</div>
+                    <button type="submit" class="sign-up-btn">Sign Up</button>
 
                 </form>
                 <div class="login-text" >Have an account? <span>Login</span></div>
