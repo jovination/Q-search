@@ -95,7 +95,7 @@
 
                    </span>
                 </div>
-                <div class="lower-row"></div>
+                <div class="lower-row lower-2"></div>
             </div>
             <div class="right-col">
                 <div class="upper-info">
@@ -120,7 +120,7 @@
                     <button type="submit" class=" login-btn">Login</button>
 
                 </form>
-                <div class="login-text" >Have an account? <span>Login</span></div>
+                <div class="login-text" >you don't have Account <span>Sign Up!</span></div>
             </div>
 
 

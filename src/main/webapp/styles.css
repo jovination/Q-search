@@ -116,12 +116,18 @@ main {
     max-width: 700px;
     width: 100%;
     height: 498px;
-    display: none;
+    display: flex;
     align-items: center;
     border-radius: 20px;
     background: #fff;
     padding: 20px;
     margin-top: 120px;
+    animation-name: popUp_fadeIn;
+    -webkit-animation-name: popUp_fadeIn;
+    animation-duration: 0.8s;
+    -webkit-animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
 }
 .successful-ui .right-col{
     max-width: 315px;
@@ -137,14 +143,21 @@ main {
     padding: 20px;
 }
 .Login-ui{
-    max-width: 700px;
-    width: 100%;
+    width: 700px;
     height: 498px;
     display: none;
     align-items: center;
+    justify-content: space-between;
     border-radius: 20px;
     background: #fff;
     padding: 20px;
+    position: relative;
+    animation-name: popUp_fadeIn;
+    -webkit-animation-name: popUp_fadeIn;
+    animation-duration: 0.8s;
+    -webkit-animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
 }
 
 .s-txt{
@@ -198,6 +211,7 @@ main {
     animation-timing-function: ease-in-out;
     -webkit-animation-timing-function: ease-in-out;
 }
+
 @keyframes popUp_fadeIn {
     0% {
         transform: scale(0);
@@ -296,7 +310,11 @@ label{
 .email-input:focus {
     border: 2px solid #5f5cff;
 }
-
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .register-form{
     display: flex;
     flex-direction: column;
@@ -339,6 +357,10 @@ label{
     background-image: url("./images/inflatable-shapes.png");
     background-position: center;
     background-size: cover;
+}
+.lower-2{
+    background-image: url("./images/abstract-vol2-v1.png");
+
 }
 .explore{
     font-size: 30px;

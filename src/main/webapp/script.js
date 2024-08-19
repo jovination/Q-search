@@ -8,6 +8,7 @@ const loginButton = document.querySelector('.login');
 
 cancelButton.style.display = "none";
 signUpUI.style.display = "none";
+loginUI.style.display = "none";
 
 signUpButton.onclick = () => {
     if (signUpUI.style.display !== "flex") {
