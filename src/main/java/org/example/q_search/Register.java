@@ -44,7 +44,7 @@ public class Register extends HttpServlet {
             preparedStatement.setString(2,email);
             preparedStatement.setString(3,password);
             preparedStatement.executeUpdate();
-            response.sendRedirect("");
+            response.sendRedirect("successful.jsp");
 
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);

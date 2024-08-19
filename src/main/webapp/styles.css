@@ -117,12 +117,29 @@ main {
     height: 498px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     border-radius: 20px;
     background: #fff;
     padding: 20px;
-    margin-top: 150px;
+    margin-top: 120px;
 }
+.successful-ui .right-col{
+    width: 315px;
+    height: 460px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    color: black;
+    padding: 20px;
+}
+.s-txt{
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+}
+
 .circle-2{
     width: 50px;
     height: 50px;
@@ -184,6 +201,11 @@ main {
     height: 460px;
     background:#EDEDED;
     border-radius: 15px;
+}
+.left-col-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .right-col{
     width: 315px;
